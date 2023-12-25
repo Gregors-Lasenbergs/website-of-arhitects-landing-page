@@ -1,0 +1,277 @@
+body {
+}
+
+p{
+    font-family: Roboto, sans-serif;
+    text-align: left;
+    font-size: 2rem;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.col{
+    flex:50%;
+    flex-direction: column;
+    text-align: left;
+    justify-content: flex-start;
+    /*min-height: 15rem;*/
+    /*max-height: 20rem;*/
+}
+
+.col-left, .col-right {
+    flex: 1;
+    /*min-height: 100%;*/
+}
+
+
+h1{
+    text-align: center;
+    align-content: center;
+}
+
+h2{
+    font-family: "Roboto", sans-serif;
+    color: gainsboro;
+    font-size: 64px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.innerBody{
+    padding: 1rem;
+    background-color: #ffffff;
+}
+
+/*Header styler*/
+.homePageLogo{
+    align-content: flex-start;
+    margin-left: 5rem;
+    width: 5rem;
+    aspect-ratio: 1/1;
+}
+
+.navBar{
+    align-content: flex-start;
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    margin-right: 4rem;
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: underline overline;
+}
+
+a{
+    font-family: Arial, serif;
+    text-decoration: none;
+    color: black;
+}
+
+/*Main section styles*/
+
+.projectContainer {
+    position: relative;
+}
+
+.projectPhoto{
+    width: 40rem;
+    height: 40rem;
+}
+
+.projectName {
+    margin-top: 20rem;
+}
+
+.bodyPadding{
+    padding: 4rem;
+}
+
+.mainProjectHeading{
+    padding-left: 5rem;
+    text-align: left;
+    color: gray;
+    font-family: Roboto,sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 300;
+}
+.mainLorumHeading{
+    padding-left: 5rem;
+    text-align: left;
+    font-family: Roboto,sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.leftPadding{
+    padding-left: 7rem;
+}
+
+.buttonAlign{
+    display: flex;
+    flex-direction: row;
+}
+
+.largeWhiteButton{
+    border-style: none;
+    align-self: flex-start;
+    min-width: 30rem;
+    min-height: 6rem;
+    background-color: #FFFFFF;
+    font-family: Roboto, serif;
+    font-size: 1rem;
+}
+
+.largeBlackButton{
+    border-style: none;
+    align-self: flex-end;
+    min-width: 30rem;
+    min-height: 6rem;
+    background-color: #444444;
+    font-family: Roboto, serif;
+    color: white;
+    font-size: 1rem;
+
+}
+
+/*About section styles*/
+
+.aboutContainer{
+    min-height: 32rem;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    background-color: #FBFBFB;
+}
+
+.aboutImages{
+    padding: 1rem;
+    width: 22rem;
+}
+
+.aboutImagesRight{
+    margin-top: 5.5rem;
+    width: 270px;
+    height: 345px;
+}
+
+/*Mission styles*/
+
+.numberCol{
+    font-size: 10rem;
+}
+
+.numberColText{
+    font-family: Roboto,sans-serif;
+    font-weight: 900;
+    width: 120px;
+    font-size: 20rem;
+    color: gainsboro;
+}
+
+.missionParagraph{
+    padding-left: 8rem;
+    color: gray;
+    font-family: Roboto,sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.mainMissContainer{
+    padding-top: 300px;
+    padding-left: 7rem;
+}
+
+/*Our Projects styles*/
+
+.ourProjectsPadding{
+    margin-left: 7rem;
+    margin-bottom: 20rem;
+}
+
+.sampleProjectButton{
+    height: 10rem;
+    align-content: center;
+    border-width: 0;
+    padding: 1rem;
+}
+
+.sampleProjects{
+    padding: 1rem;
+    height: 16rem;
+}
+
+.buttonProjectsPhoto{
+    padding: 1rem;
+    height: 16rem;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    font-family: Roboto,sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: left;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.transLayer{
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+}
+.viewMoreText{
+    padding-top: 1rem;
+    font-weight: lighter;
+    font-size: 0.75rem;
+}
+.sampleText{
+    font-weight: bolder;
+}
+
+/*Footer styles*/
+
+footer{
+    background-color: #2C2C2C;
+}
+
+.footer-text{
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.footerImg{
+    padding-top: 3rem;
+    width: 8rem;
+}
+
+.copyrightText{
+    font-size: 1rem;
+    text-align: center;
+    padding-bottom: 1rem;
+}
